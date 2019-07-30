@@ -1,13 +1,13 @@
 public class Distinctstring { 
-static int c = 256; 
+static int char = 256; 
 static int max(String str, int n) { 
-int count[] = new int[c]; 
+int c[] = new int[char]; 
 for (int i = 0; i < n; i++) { 
-count[str.charAt(i)]++; 
+c[str.charAt(i)]++; 
 } 
 int max = 0; 
-for (int i = 0; i < c; i++) { 
-if (count[i] != 0) { 
+for (int i = 0; i < char; i++) { 
+if (c[i] != 0) { 
 max++; 
 } 
 } 
